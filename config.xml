@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.makramsaleh.msst" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>MSST</name>
+    <description>
+        A game.
+    </description>
+    <author email="makramsaleh@gmail.com" href="http://makramsaleh.com">
+        MS + ST
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
