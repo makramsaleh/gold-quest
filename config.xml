@@ -10,6 +10,8 @@
     <content src="index.html" />
     <access origin="*" />
 	<platform name="android">
+		<preference name="android-targetSdkVersion" value="28" />
+		
         <preference name="SplashMaintainAspectRatio" value="true"/>
 		<preference name="SplashShowOnlyFirstTime" value="true"/>
 		<icon density="ldpi" src="www/res/icon/android/ldpi.png"/>
