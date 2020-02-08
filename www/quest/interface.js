@@ -71,8 +71,8 @@ function showPopup(content_id)
 function updateVolumeIcon() 
 {
 	if(sound_enabled) {
-		$(".btn_toggle_sound i").text("volume_up");
+		$(".btn_toggle_sound i").addClass("ic-volume-on").removeClass("ic-volume-off");
 	} else {
-		$(".btn_toggle_sound i").text("volume_off");
+		$(".btn_toggle_sound i").addClass("ic-volume-off").removeClass("ic-volume-on");
 	}
 }

@@ -45,10 +45,22 @@ clip-path: polygon(33% 0%, 66% 0%, 66% 50%, 100% 50%, 100% 100%, 0% 100%, 0% 50%
 .buttons a { margin-bottom:0px; line-height: 1.8em;
 	color:rgba(255, 255, 255, 0.2); text-decoration:none; }
 .buttons.verticals a {  clear:both; width:auto; }
-.buttons a i { position:relative; top:6px; font-size: 32px }
+.buttons a i { padding:10px; width:24px; height:24px; 
+	display: inline-block; background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	opacity:0.4;
+}
 .buttons a:active { color:#fff }
-.buttons a:active i { color:#fff }
+.buttons a:active i { opacity:1; }
 .buttons a.toggle { float:none;   }
 .buttons a.selected { color:rgba(255, 255, 255, 0.4) } 
+
+.buttons a i.ic-play { background-image:url('../images/buttons/ic_play_arrow.png'); }
+.buttons a i.ic-replay { background-image:url('../images/buttons/ic_replay.png'); }
+.buttons a i.ic-volume-on { background-image:url('../images/buttons/ic_volume_up.png'); }
+.buttons a i.ic-volume-off { background-image:url('../images/buttons/ic_volume_off.png'); }
+.buttons a i.ic-pause { background-image:url('../images/buttons/ic_pause.png'); }
 
 .clear { clear: both; }
