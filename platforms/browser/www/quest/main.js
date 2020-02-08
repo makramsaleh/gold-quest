@@ -110,11 +110,12 @@ var HTMLInterface = {
 	{
 		if(winner == "tie") {
 			$(".board").removeClass("blue").removeClass("red").addClass("off");
-			showWinnerPopup("IT'S A TIE!");
+			showWinnerPopup("it's a tie!");
 			startAudioWin();
 		} else if(winner.length) {
 			$(".board").removeClass("blue").removeClass("red").addClass(winner);
-			showWinnerPopup(winner+" wins!");
+			var winner_name = winner=="red"?"pink":"green";
+			showWinnerPopup(winner_name+" wins!");
 			startAudioWin();
 		}
 	},
